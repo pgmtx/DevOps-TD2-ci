@@ -11,8 +11,5 @@
   "description": "",
   "devDependencies": {
     "jest": "^30.2.0"
-  },
-  "dependencies": {
-    "highlight.js": "^11.11.1"
   }
 }

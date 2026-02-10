@@ -11,18 +11,23 @@
             border: 1px solid black;
             resize: none;
         }
+
+        #notification {
+            display: none;
+        }
     </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
 </head>
 
 <body>
+    <script defer src="highlighter.js"></script>
     <h1>C avec des couleurs</h1>
-    <form>
-        <textarea></textarea>
-        <input type="submit" value="Coloriser" />
-    </form>
-    <textarea readonly>
-        yay
-    </textarea>
+    <textarea id="code"></textarea>
+    <br />
+    <button id="highlight-button">Coloriser</button>
+    <pre><code id="output-code"></code></pre>
+    <p id="notification">(code html copié dans le presse-papiers)</p>
 </body>
 
 </html>
