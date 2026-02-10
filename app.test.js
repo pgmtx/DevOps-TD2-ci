@@ -1,4 +1,4 @@
-const { add } = require("./app");
+const { add, sub } = require("./app");
 
 describe("add", () => {
     test("should return the sum of two numbers", () => {
