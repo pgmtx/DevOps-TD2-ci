@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>C avec des couleurs</title>
+    <style>
+        textarea {
+            width: 50%;
+            height: 160pt;
+            border: 1px solid black;
+            resize: none;
+        }
+
+        #notification {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+</head>
+
+<body>
+    <script defer src="highlighter.js"></script>
+    <h1>C avec des couleurs</h1>
+    <textarea id="code"></textarea>
+    <br>
+    <button id="highlight-button" type="button">Coloriser</button>
+    <pre><code id="output-code"></code></pre>
+    <p id="notification">(code html copié dans le presse-papiers)</p>
+</body>
+
+</html>
